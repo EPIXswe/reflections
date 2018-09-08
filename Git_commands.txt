@@ -1,0 +1,5 @@
+Git Commands
+
+SCP
+* To copy a directory from one computer to another, use the command scp, which stands for "secure copy".
+NOTE: You can copy any directory, but you can only clone Git repositories.

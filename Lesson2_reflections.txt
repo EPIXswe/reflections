@@ -11,16 +11,24 @@ The staging area is for committing changes. It's like a buffer.
 A working directory is simply a directory... You take things from the working directory
 and puts it in the staging area.
 
+12
 How can you use the staging area to make sure you have one commit per logical
 change?
+By comparing the differences between the latest commit and the staging area.
 
+15
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Det kan vara användbart när du vill göra experimentiella versioner som inte (för tillfället) bör vara en del av huvudgrenen.
 
 How do the diagrams help you visualize the branch structure?
+Det är enkelt att se hur "trädet" är uppbyggt och förstå vad som behövs göras om man ska t.ex. merga etc.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Genom att merge:a två grenar så läggs alla summeras alla olikheter, vilket resulteras i nya filer.
+Anledningen för varför diagrammet ser ut som det gör är för att det är ett bra sätt att illustrera
+det på...
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?

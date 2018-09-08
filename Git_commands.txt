@@ -4,6 +4,13 @@ SCP
 * To copy a directory from one computer to another, use the command scp, which stands for "secure copy".
 NOTE: You can copy any directory, but you can only clone Git repositories.
 
+Cancel merge:
+git merge --abort
+
+Comparing a commit to its parent: git show commit_id (exempelvis när man mergat och två commits 
+inte har någon relation till varandra förutom tidsföljd i när de skapades)
+
+Show a diagram log: git log --graph --oneline [commit1] [commit2] [commitX]
 
 Here is some really good information!
 https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf

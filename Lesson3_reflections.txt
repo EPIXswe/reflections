@@ -7,17 +7,25 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Because it would cause a lot of merge-conflicts all the time (?)
+    Because maybe somebody has uploaded an unstable version which causes problem
+    for your work
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    En fork är som att klona, men direkt över GitHubs servrar. En fork har även en
+    referens till original-projektet.
+
+    Om man vill spara ett projekt utan att behöva klona ner det på datorn kan man använda fork.
+    Om man vill börja arbeta på ett projekt direkt så kan man klona det istället. (???)
+    JAG VET INTE HELT SÄKERT :O
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    För att undvika merge-konflikter
+    Du kan merga dem när du vill och ta hand om merge-konflikter
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

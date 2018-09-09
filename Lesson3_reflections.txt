@@ -30,9 +30,15 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Google Drive... Det hade varit fett drygt.
+    Git och GitHub löser många problem ;)
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    När jag jobbar på en ny funktion.
+    Anledningen för varför det kan vara bra i det här fallet är om det skulle bli krockar,
+    så att man kan lösa det enkelt tillsammans, och man kan även kommentera ändringar åt varandra.
+    På det här sättet blir det mer organiserat och man kan dela ihop "byggandet" mer konkret i olika
+    block/delar.
+    Det blir även enkelt att administrera.
